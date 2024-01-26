@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.65323be5.css",
-    "main.js": "/static/js/main.a46dd653.js",
-    "index.html": "/index.html",
-    "main.65323be5.css.map": "/static/css/main.65323be5.css.map",
-    "main.a46dd653.js.map": "/static/js/main.a46dd653.js.map"
+    "main.css": "/AnnoTect-React-Image-Annotation-App/static/css/main.65323be5.css",
+    "main.js": "/AnnoTect-React-Image-Annotation-App/static/js/main.a46dd653.js",
+    "index.html": "/AnnoTect-React-Image-Annotation-App/index.html",
+    "main.65323be5.css.map": "/AnnoTect-React-Image-Annotation-App/static/css/main.65323be5.css.map",
+    "main.a46dd653.js.map": "/AnnoTect-React-Image-Annotation-App/static/js/main.a46dd653.js.map"
   },
   "entrypoints": [
     "static/css/main.65323be5.css",
