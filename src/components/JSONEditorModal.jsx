@@ -30,6 +30,7 @@ export default function JSONEditorModal({ ...props }) {
         2
       )
     );
+    // eslint-disable-next-line
   }, [annotationsData, props.show]);
 
   return (

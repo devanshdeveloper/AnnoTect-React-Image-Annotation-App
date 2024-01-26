@@ -76,6 +76,7 @@ export default function MainProvider({ children }) {
       data[image.filename] = annotationsData[image.filename] || [];
     });
     onAnnotationsChange(data);
+    // eslint-disable-next-line
   }, [images]);
 
   return (

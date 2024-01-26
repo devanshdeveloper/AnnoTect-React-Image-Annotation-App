@@ -5,7 +5,7 @@ import { BsFiletypeJson } from "react-icons/bs";
 
 import { FaFolder } from "react-icons/fa";
 import { getInputAnnotationData } from "../utils/json-utils";
-import { getJSONFilesFromDirectory, loadFile } from "../utils/files";
+import { getJSONFilesFromDirectory } from "../utils/files";
 
 export default function ImportModal({ ...props }) {
   const { onAnnotationsChange, annotationsData, setLoader } = useMainContext();

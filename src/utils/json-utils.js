@@ -24,10 +24,10 @@ export function getInputAnnotationData(jsonData) {
   if (!jsonData) return [];
 
   // [width, height]
-  const [width, height] = jsonData.size
+  const height = jsonData.size
     .replace(/[{}]/g, "")
     .split(",")
-    .map((value) => parseFloat(value.trim()));
+    .map((value) => parseFloat(value.trim()))[1];
 
   const inputData = jsonData.annotations.map((annotation) => {
     const frameValues = annotation.frame

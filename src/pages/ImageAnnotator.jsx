@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { getImageIndexValid } from "../utils";
 import ImportModal from "../components/ImportModal";
 import ExportModal from "../components/ExportModal";
-import JSONEditorModal from "../components/JSONEditorModal";
+// import JSONEditorModal from "../components/JSONEditorModal";
 import ConfirmationModal from "../components/ConfirmationModal";
 import { defaultStyles } from "../utils/default";
 
@@ -43,11 +43,11 @@ export default function ImageAnnotator() {
     show: false,
   });
 
-  const [jSONEditorModal, setJSONEditorModal] = useState({
-    show: false,
-    onSuccess: () => {},
-    onClose: () => {},
-  });
+  // const [jSONEditorModal, setJSONEditorModal] = useState({
+  //   show: false,
+  //   onSuccess: () => {},
+  //   onClose: () => {},
+  // });
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isImagePreviewOpen, setIsImagePreviewOpen] = useState(false);
