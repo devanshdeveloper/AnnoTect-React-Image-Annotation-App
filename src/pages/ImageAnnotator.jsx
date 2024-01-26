@@ -88,7 +88,7 @@ export default function ImageAnnotator() {
 
   useEffect(() => {
     imagePreviewDiv.current.scroll({
-      top: 121 * currentImageIndex,
+      top: 99 * currentImageIndex,
       behavior: "smooth",
     });
   }, [currentImageIndex]);
